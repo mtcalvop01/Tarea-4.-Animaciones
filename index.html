@@ -6,8 +6,9 @@
     <meta charset='utf-8'>  
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel='stylesheet' href='style.css'>
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
     <script src='script.js' defer></script>
     <title>Tarea 4.-Animas</title>
 </head>
@@ -17,34 +18,43 @@
     <div class="contenedor">
       <h1>Innovatech Web Solutions</h1>
       <p>Impulsamos negocios a través de soluciones digitales inteligentes y a medida. Sitios web, apps y plataformas que conectan con tus clientes.</p>
-      <img src="https://via.placeholder.com/450x300.png?text=Innovatech+Web" alt="Hero Innovatech">
+      <img src="" alt="">
     </div>
   </header>
 
   <!-- Características -->
-  <section class="caracteristicas" id="caracteristicas">
-    <div class="contenedor">
-      <h2>Por qué elegirnos</h2>
-      <div class="tarjetas-caracteristicas">
-        <div class="tarjeta">
-          <h3>Diseño a medida</h3>
-          <p>Proyectos únicos alineados con la identidad de tu marca y experiencia del usuario.</p>
-        </div>
-        <div class="tarjeta">
-          <h3>Optimización y rendimiento</h3>
-          <p>Webs rápidas, seguras y confiables que mejoran la experiencia de tus visitantes.</p>
-        </div>
-        <div class="tarjeta">
-          <h3>Responsive y accesible</h3>
-          <p>Diseño que se adapta a cualquier dispositivo cumpliendo estándares de accesibilidad.</p>
-        </div>
-        <div class="tarjeta">
-          <h3>Soporte continuo</h3>
-          <p>Asesoría y mantenimiento para mantener tu proyecto actualizado y seguro.</p>
-        </div>
+<section class="caracteristicas" id="caracteristicas">
+  <div class="contenedor">
+    <h2 id="titulo">Por qué elegirnos</h2>
+    <div class="tarjetas-caracteristicas">
+      <div class="tarjeta">
+        <h3>Diseño a medida</h3>
+        <p>Proyectos únicos alineados con la identidad de tu marca y experiencia del usuario.</p>
+      </div>
+      <div class="tarjeta">
+        <h3>Optimización y rendimiento</h3>
+        <p>Webs rápidas, seguras y confiables que mejoran la experiencia de tus visitantes.</p>
+      </div>
+      <div class="tarjeta">
+        <h3>Responsive y accesible</h3>
+        <p>Diseño que se adapta a cualquier dispositivo cumpliendo estándares de accesibilidad.</p>
+      </div>
+      <div class="tarjeta">
+        <h3>Soporte continuo</h3>
+        <p>Asesoría y mantenimiento para mantener tu proyecto actualizado y seguro.</p>
+      </div>
+      <div class="tarjeta">
+        <h3>Innovación constante</h3>
+        <p>Incorporamos las últimas tendencias y tecnologías para mantener tu proyecto a la vanguardia.</p>
+      </div>
+      <div class="tarjeta">
+        <h3>Seguridad y confiabilidad</h3>
+        <p>Protegemos tu información y la de tus usuarios garantizando la máxima seguridad.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- Servicios -->
   <section class="servicios" id="servicios">
@@ -96,7 +106,7 @@
   <section class="llamado-a-accion" id="cta">
     <div class="contenedor">
       <h2>¿Quieres transformar tu negocio digital?</h2>
-      <button>Contáctanos</button>
+      <button id="letras">Contáctanos</button>
     </div>
   </section>
 
