@@ -111,7 +111,7 @@ gsap.fromTo("#footer", {
 },{
     scrollTrigger: {
         trigger: "#cta",
-        start:"50% 50%",
+        start:"30% bottom",
         end: "buttom 15%",
         scrub: 1,
         markers:false
