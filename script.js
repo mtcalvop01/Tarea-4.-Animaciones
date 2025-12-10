@@ -52,7 +52,7 @@ gsap.to("#letras", {
 gsap.from(".tarjeta", {
   scrollTrigger: {
     trigger: "#titulo",
-    start: "70% 30%",  
+    start: "30% 30%",  
     end: "bottom 0%",
     scrub: 1,
     markers: false
@@ -111,8 +111,8 @@ gsap.fromTo("#footer", {
 },{
     scrollTrigger: {
         trigger: "#cta",
-        start:"30% bottom",
-        end: "buttom 15%",
+        start:"20% bottom",
+        end: "buttom 20%",
         scrub: 1,
         markers:false
     },
